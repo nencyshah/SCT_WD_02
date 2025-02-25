@@ -1,0 +1,60 @@
+body {
+  background: rgb(146, 190, 211);
+}
+.container {
+  background-color: white;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+.timer-display {
+  position: relative;
+  width: 92px;
+  background: rgb(172, 246, 160);
+  left: 30%;
+  font-family: " Arial, Helvetica, sans-serif";
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: rgb(172, 246, 160);
+  color: black;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.buttons button:nth-last-child(2) {
+  background-color: rgb(172, 246, 160);
+}
+.buttons button:nth-last-child(1) {
+  background-color: rgb(172, 246, 160);
+}
+.buttons button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background-color: rgb(172, 246, 160);
+}
